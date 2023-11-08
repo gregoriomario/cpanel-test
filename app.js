@@ -10,6 +10,6 @@ app.get("/message/:messsage", (req, res) => {
     res.json({ message });
 });
 
-app.listen(8080, () => {
+app.listen(5050, () => {
     console.log("Server is running");
 });
